@@ -1,0 +1,31 @@
+- - create a table
+CREATE TABLE students (id int,name varchar(20),subject varchar(20),marks int);
+INSERT INTO students (id,'name','subject',marks)
+values(1,'akal','phy',90),
+(2,'abi','chem',91),
+(3,'lalli','biology',80),
+(4,'malar','tam',99),
+(5,'ajay','eng',98),
+(6,'akash','css',70),
+(7,'ammu','html',94),
+(8,'aji','cs',80),
+(9,'ari','phy',90),
+(10,'arivu','eng',78);
+select * from students;
+select avg(marks) from students;
+select sum(marks) from students;
+select min(marks) from students;
+select max(marks) from students;
+select count(id) from students;
+create table staffs(id int,name varchar(20),course varchar(20),dept varchar(20));
+insert into staffs(id,'name','course','dept')
+values(1,'anbu','cs','ece'),
+(2,'bindhu','cs','ece'),
+(3,'saravana','cs','ece'),
+(4,'saji','cs','ece'),
+(5,'raji','cs','ece'),
+(6,'renu','cs','ece'),
+(7,'aras','cs','ece'),
+(8,'aadhi','cs','ece'),
+(9,'arul','cs','ece');
+select * from staffs;
